@@ -1,0 +1,119 @@
+::selection {
+    /* color: #416abb; */
+    color: #3fc7a7;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+// *,
+// *::before,
+// *::after {
+//   box-sizing: border-box;
+//   margin: 0;
+//   position: relative;
+//   font-weight: normal;
+// }
+
+html {
+    font-family: Product-Sans-Regular, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #282c34;
+    color: white;
+}
+
+img {
+    width: 100%;
+}
+
+.btn {
+    @include btn;
+
+    &-dark {
+        @include btn($type: dark);
+    }
+
+    &-light {
+        @include btn($type: light);
+    }
+}
+
+//input
+input {
+    border-radius: 0.3rem;
+    border: none;
+    padding: 5px 10px;
+    font-family: Product-Sans-Regular, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    &:focus {
+        background-color: $main-clr2 ;
+        color: white;
+
+
+        &::placeholder {
+            color: white;
+        }
+    }
+
+}
+
+//button
+
+h1 {
+    /* color: #282c34; */
+    color: #ffc800;
+    font-family: Quiska, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100px;
+    // margin: 0;
+}
+
+.start-btn {
+    position: relative;
+    z-index: 5;
+    border: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    border-radius: 0.3rem;
+    background-color: #ffc800;
+    color: #34a1d5;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+}
+
+.btn {
+    font-family: Product-Sans-Regular, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: $main-clr5;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+// links
+a {
+    text-decoration: none;
+    // color: black;
+    color: white;
+    text-decoration: none;
+    transition: 0.4s;
+}
