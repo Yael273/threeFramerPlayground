@@ -17,35 +17,24 @@
 // }
 
 html {
-    font-family: Product-Sans-Regular, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: ProductSansRegular, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
 body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    font-family: ProductSansRegular, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
         'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
         sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: #282c34;
+    // background-color: #282c34;
+    background-color: #0d112b;
     color: white;
 }
 
 img {
     width: 100%;
-}
-
-.btn {
-    @include btn;
-
-    &-dark {
-        @include btn($type: dark);
-    }
-
-    &-light {
-        @include btn($type: light);
-    }
 }
 
 //input
@@ -56,7 +45,7 @@ input {
     font-family: Product-Sans-Regular, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
     &:focus {
-        background-color: $main-clr2 ;
+        background-color: $clr2 ;
         color: white;
 
 
@@ -75,15 +64,16 @@ h1 {
     font-family: Quiska, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 100px;
     // margin: 0;
+    margin: 20px 0;
 }
 
 .start-btn {
+    font-family: ProductSansRegular, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
     z-index: 5;
     border: none;
     font-size: 20px;
     padding: 10px 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 800;
     border-radius: 0.3rem;
     background-color: #ffc800;
@@ -99,7 +89,7 @@ h1 {
 
 .btn {
     font-family: Product-Sans-Regular, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: $main-clr5;
+    background-color: $clr2;
     border: none;
     padding: 10px 20px;
     color: white;

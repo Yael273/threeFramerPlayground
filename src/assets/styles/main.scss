@@ -3,7 +3,6 @@ code {
         monospace;
 }
 
-
 .App {
     text-align: center;
 }
@@ -17,17 +16,6 @@ code {
     .App-logo {
         animation: App-logo-spin infinite 20s linear;
     }
-}
-
-.Home-page {
-    background-color: #282c34;
-    min-height: calc(100vh - 300px);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
 }
 
 .App-link {
@@ -44,20 +32,18 @@ code {
     }
 }
 
-/* .canvas {
-    height: calc(100vh-'50px');
-  } */
-
-
+.box {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #61dafb
+}
 
 // SETUP
 @import 'setup/typography';
 @import 'setup/variables';
-@import 'setup/mixins';
-@import 'setup/functions';
 
 // BASICS
-@import 'basics/helpers';
 @import 'basics/base';
 @import 'basics/layout';
 
@@ -65,4 +51,9 @@ code {
 @import 'cmps/app-header';
 
 //PAGES
-// @import 'pages/home-page';
+@import 'pages/home-page';
+@import 'pages/stars-page';
+@import 'pages/spline-page';
+
+
+

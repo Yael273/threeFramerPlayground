@@ -20,18 +20,16 @@ header {
         align-items: center;
 
         h1 {
-            color: $main-clr;
             font-size: 40px;
         }
     }
 
-    ul{
-        display: flex;
-        list-style: none;
+    a {
+        margin-inline-start: 2em;
     }
 
-    a {
-        margin-inline-start: 1em;
+    nav .active {
+        color: $clr1;
     }
 
     img {
