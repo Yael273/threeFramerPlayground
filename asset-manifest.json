@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/threeFramerPlayground/static/css/main.f82da676.css",
-    "main.js": "/threeFramerPlayground/static/js/main.c44997b5.js",
+    "main.js": "/threeFramerPlayground/static/js/main.bd16c04b.js",
     "static/js/227.6f7b113d.chunk.js": "/threeFramerPlayground/static/js/227.6f7b113d.chunk.js",
     "static/js/526.cb538107.chunk.js": "/threeFramerPlayground/static/js/526.cb538107.chunk.js",
     "static/js/232.8d9190b3.chunk.js": "/threeFramerPlayground/static/js/232.8d9190b3.chunk.js",
@@ -11,7 +11,7 @@
     "static/media/Ginva.ttf": "/threeFramerPlayground/static/media/Ginva.42caf5055f0ca9f83144.ttf",
     "index.html": "/threeFramerPlayground/index.html",
     "main.f82da676.css.map": "/threeFramerPlayground/static/css/main.f82da676.css.map",
-    "main.c44997b5.js.map": "/threeFramerPlayground/static/js/main.c44997b5.js.map",
+    "main.bd16c04b.js.map": "/threeFramerPlayground/static/js/main.bd16c04b.js.map",
     "227.6f7b113d.chunk.js.map": "/threeFramerPlayground/static/js/227.6f7b113d.chunk.js.map",
     "526.cb538107.chunk.js.map": "/threeFramerPlayground/static/js/526.cb538107.chunk.js.map",
     "232.8d9190b3.chunk.js.map": "/threeFramerPlayground/static/js/232.8d9190b3.chunk.js.map",
@@ -19,6 +19,6 @@
   },
   "entrypoints": [
     "static/css/main.f82da676.css",
-    "static/js/main.c44997b5.js"
+    "static/js/main.bd16c04b.js"
   ]
 }
