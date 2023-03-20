@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/threeFramerPlayground/static/css/main.f82da676.css",
+    "main.js": "/threeFramerPlayground/static/js/main.d936ae4a.js",
+    "static/js/227.6f7b113d.chunk.js": "/threeFramerPlayground/static/js/227.6f7b113d.chunk.js",
+    "static/js/526.cb538107.chunk.js": "/threeFramerPlayground/static/js/526.cb538107.chunk.js",
+    "static/js/232.8d9190b3.chunk.js": "/threeFramerPlayground/static/js/232.8d9190b3.chunk.js",
+    "static/js/237.990770a1.chunk.js": "/threeFramerPlayground/static/js/237.990770a1.chunk.js",
+    "static/media/Quiska-Personal-Use-Only.ttf": "/threeFramerPlayground/static/media/Quiska-Personal-Use-Only.c57080adbb2802c06300.ttf",
+    "static/media/ProductSansRegular.ttf": "/threeFramerPlayground/static/media/ProductSansRegular.d165384076551a756b3c.ttf",
+    "static/media/Ginva.ttf": "/threeFramerPlayground/static/media/Ginva.42caf5055f0ca9f83144.ttf",
+    "index.html": "/threeFramerPlayground/index.html",
+    "main.f82da676.css.map": "/threeFramerPlayground/static/css/main.f82da676.css.map",
+    "main.d936ae4a.js.map": "/threeFramerPlayground/static/js/main.d936ae4a.js.map",
+    "227.6f7b113d.chunk.js.map": "/threeFramerPlayground/static/js/227.6f7b113d.chunk.js.map",
+    "526.cb538107.chunk.js.map": "/threeFramerPlayground/static/js/526.cb538107.chunk.js.map",
+    "232.8d9190b3.chunk.js.map": "/threeFramerPlayground/static/js/232.8d9190b3.chunk.js.map",
+    "237.990770a1.chunk.js.map": "/threeFramerPlayground/static/js/237.990770a1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f82da676.css",
+    "static/js/main.d936ae4a.js"
+  ]
+}
