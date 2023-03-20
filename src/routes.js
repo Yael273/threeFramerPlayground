@@ -5,17 +5,17 @@ import { StarsPage } from "./pages/Stars-page"
 // Routes accesible from the main navigation (in AppHeader)
 const routes = [
     {
-        path: 'threeFramerPlayground/',
+        path: '/',
         component: <HomePage />,
         label: 'Home',
     },
     {
-        path: 'threeFramerPlayground/spline',
+        path: '/spline',
         component: <SplinePage />,
         label: 'Spline',
     },
     {
-        path: 'threeFramerPlayground/stars',
+        path: '/stars',
         component: <StarsPage />,
         label: 'Stars',
     },
