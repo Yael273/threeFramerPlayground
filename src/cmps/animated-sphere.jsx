@@ -14,7 +14,6 @@ export function AnimatedSphere({color, scale, distort, speed}) {
                 />
                 {/* <meshNormalMaterial attach="material" /> */}
             </Sphere>
-
         </mesh>
 
     )
