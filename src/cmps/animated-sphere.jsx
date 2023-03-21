@@ -1,15 +1,15 @@
 import { MeshDistortMaterial, Sphere } from "@react-three/drei";
 
-export function AnimatedSphere() {
+export function AnimatedSphere({color, scale, distort, speed}) {
     // const loader = new GLTFLoader();
     return (
         <mesh>
-            <Sphere visible args={[1, 100, 200]} scale={2}>
+            <Sphere visible args={[1, 100, 200]} scale={scale}>
                 <MeshDistortMaterial
-                    color="#34a1d5"
+                    color={color}
                     attach="material"
-                    distort={0.5}
-                    speed={1.5}
+                    distort={distort}
+                    speed={speed}
                     roughness={5}
                 />
                 {/* <meshNormalMaterial attach="material" /> */}
