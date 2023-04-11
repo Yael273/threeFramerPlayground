@@ -1,4 +1,4 @@
-# Three js, Framer motion, Spline and Popmotion playground
+# React three fiber, Framer motion, Spline and Popmotion playground
 A little project i made to explore the world of 3D and animation.
 
 ## See it in Action - [Playground](https://yael273.github.io/threeFramerPlayground/)
