@@ -31,6 +31,7 @@ body {
     // background-color: #282c34;
     background-color: #0d112b;
     color: white;
+    overflow-x: hidden;
 }
 
 img {
@@ -109,6 +110,8 @@ a {
 }
 
 //scrollbar
+
+
 ::-webkit-scrollbar {
     height: 12px;
     width: 5px;

@@ -1,3 +1,4 @@
+import { BoxPage } from "./pages/box-page"
 import { HomePage } from "./pages/home-page"
 import { SplinePage } from "./pages/spline-page"
 import { StarsPage } from "./pages/Stars-page"
@@ -18,6 +19,11 @@ const routes = [
         path: '/stars',
         component: <StarsPage />,
         label: 'Stars',
+    },
+    {
+        path: '/box',
+        component: <BoxPage />,
+        label: 'boxes',
     },
 
 ]
